@@ -1,0 +1,2 @@
+talker,ros2 run demo_nodes_cpp talker > $LOGNAME/talker_`date "+%Y%m%d_%H%M%S"`.log 2>&1
+listener,ros2 run demo_nodes_cpp listener > $LOGNAME/listener_`date "+%Y%m%d_%H%M%S"`.log 2>&1
